@@ -1,0 +1,56 @@
+[
+    {
+      "id": "623dea787a2a1e4dc49cabbd",
+      "price": "$1,272.30",
+      "img": "https://static.toiimg.com/thumb/resizemode-4,msid-66463102,width-1200,height-900/66463102.jpg",
+      "name": "MacBook Air 13"
+    },
+    {
+      "id": "623dea7874e9e40209edfd2c",
+      "price": "$1,713.80",
+      "img": "https://cdn.mos.cms.futurecdn.net/svT379G8WNZsjn6cFabxsC.jpg",
+      "name": "MacBook Pro 13"
+    },
+    {
+      "id": "623dea78684f50b8324d7e8d",
+      "price": "$1,999.37",
+      "img": "https://www.computervillage.com.bd/uploads/products/meta/meta_apple-macbook-pro-13-3-inch-laptop-price-__1638263665.webp",
+      "name": "MacBook Pro 14"
+    },
+    {
+      "id": "623dea78626565efb6a553ea",
+      "price": "$2,424.23",
+      "img": "https://static.toiimg.com/photo/87118252.cms",
+      "name": "MacBook Pro 16”"
+    },
+    {
+      "id": "623dea782e01301e7e30fa11",
+      "price": "$1,229.23",
+      "img": "https://mcsolution.com.bd/wp-content/uploads/2021/05/HP-Pavilion-X360-14-Dy0025TU-Price-from-our-outlet.-HP-Pavilion-X360-1411th-Gen-Processor.jpg",
+      "name": "HP-Pavilion-X360"
+    },
+    {
+      "id": "623dea78b175788876997d4e",
+      "price": "$1,282.81",
+      "img": "https://static-01.daraz.com.bd/p/mdc/0e4472116f56dc21166f31045ecb32b6.png",
+      "name": "HP-Pavilion-15-eh1678AU"
+    },
+    {
+      "id": "623dea78b175788876997d4e",
+      "price": "$2,082",
+      "img": "https://mcsolution.com.bd/wp-content/uploads/2021/12/dell-inspiron-16-plus-7610.webp",
+      "name": "Dell Inspiron 16 Plus"
+    },
+    {
+      "id": "623dea78b175788876997d4e",
+      "price": "$2,182",
+      "img": "https://mcsolution.com.bd/wp-content/uploads/2021/05/Dell-XPS-17-9700-Model-2021-Laptop-Intel-Core-i7-10750H-16GB-512GB-SSD-GTX-1650.jpg",
+      "name": "Dell XPS 17 9700"
+    },
+    {
+      "id": "623dea78b175788876997d4e",
+      "price": "$628",
+      "img": "https://www.nexus.com.bd/images/detailed/5/Dell_Vostro_14-3401_Core_i3_10th_Gen_4GB_Ram_Laptop.jpg",
+      "name": "Dell Vostro 14-3401"
+    }
+  ]

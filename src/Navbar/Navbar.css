@@ -1,0 +1,7 @@
+.nav{
+    background-color: rgb(160, 157, 154);
+    padding:2px;
+    margin-bottom: 15px;
+    position: sticky;
+    top:0;
+}

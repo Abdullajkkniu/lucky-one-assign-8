@@ -1,0 +1,9 @@
+.sidebar{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    
+}
+.bar-style{
+    background-color: bisque;
+    border-radius: 10px;
+}
