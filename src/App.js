@@ -8,15 +8,22 @@ import Sidebar from './Sidebar/Sidebar';
 function App() {
   const [cards, setCards] =useState([]);
   const [carts, setCarts] =useState([]);
-
-  function myNumber(){
-    const randNumber = cards[Math.floor(Math.random() * cards.length)];
-  return randNumber;
-  }
   
+  // function randomIntFromInterval(min, max) { // min and max included 
+  //   return Math.floor(Math.random() * (max - min + 1) + min)
+  // }
   
-  // console.log(cards)
+  // const rndInt = randomIntFromInterval(0, 6)
+  // console.log(rndInt)
+  
+  // const cartLength = carts.length;
+  // const luckyNum = Math.floor(Math.random())* cartLength;
+  // const selectedItem = carts[luckyNum].name;
+  // console.log(selectedItem);
 
+  // const array = cards;
+  // const random = Math.floor(Math.random() * array.length);
+  // console.log(random);
 
   const handleAddToCart =(addCart)=>{
     const newArray = [...carts, addCart]
@@ -37,18 +44,19 @@ function App() {
       <div className='sidebar'>
       <div className='card-container'>
       {
-        cards.map((card)=>(<Card key={card.id} card={card} handleAddToCart={handleAddToCart}/>))
+        cards.map((card)=>(<Card key={card.id}  card={card} handleAddToCart={handleAddToCart}/>))
       }
     </div>
     <div className='bar-style'>
-    <Sidebar ></Sidebar>
+    <Sidebar></Sidebar>
     <div>
       {
-          carts.map((item)=>( <h2 key={item.id}>{item.name}</h2> ))
+          carts.map((item)=>( <h2 key={item.id}> {item.name}</h2> ))
         }
+
       </div>
-      <button className='choose-btn'>CHOOSE 1 FOR ME</button>
-      <button className='choose-btn'>CHOOSE AGAIN</button>
+    <button className='choose-btn' >CHOOSE 1 FOR ME</button>
+      <button className='choose-btn'>clearCart</button>
     </div>
       </div>
       <h4>Question 1 :How react works?</h4>
