@@ -2,8 +2,8 @@ import React from 'react';
 import './Card.css';
 import {BsFillCartFill} from 'react-icons/bs'
 const Card = (props) => {
+    // console.log(props);
     const {name, img, id,price} = props.card;
-    console.log(props)
     return (
         <div className='card-style'>
             <img className='img-container' src={img} alt="" />
