@@ -3,7 +3,8 @@ import './Sidebar.css'
 const Sidebar = () => {
     return (
         <div>
-            <h3>Selected Laptops</h3>
+            <h2 className='bar-title'>Selected Laptops</h2>
+            
         </div>
     );
 };

@@ -10,7 +10,7 @@ function App() {
   const [carts, setCarts] =useState([]);
   
   const handleAddToCart =(addCart)=>{
-    
+    console.log(addCart)
     const newArray = [...carts, addCart]
     setCarts(newArray);
   }
@@ -24,11 +24,7 @@ function App() {
 
     <div className="App">
       <Navbar></Navbar>
-      <div>
-      {
-          carts.map((item)=>( <h1>{item.name}</h1> ))
-        }
-      </div>
+      
       <div className='sidebar'>
       <div className='card-container'>
       {
@@ -37,6 +33,13 @@ function App() {
     </div>
     <div className='bar-style'>
     <Sidebar></Sidebar>
+    <div>
+      {
+          carts.map((item)=>( <h2>{item.name}</h2> ))
+        }
+      </div>
+      <button className='choose-btn'>CHOOSE 1 FOR ME</button>
+      <button className='choose-btn'>CHOOSE AGAIN</button>
     </div>
       </div>
       

@@ -10,7 +10,7 @@ const Card = (props) => {
             <h1>name:{name}</h1>
             <p>id:{id}</p>
             <p>Price:{price}</p>
-            <h5 className='btn-style'>ADD TO CART  <button onClick={()=>props.handleAddToCart(props.gun)}><BsFillCartFill className='icon' /></button ></h5>
+            <h5 className='btn-style'>ADD TO CART  <button onClick={()=>props.handleAddToCart(props.card)}><BsFillCartFill className='icon' /></button ></h5>
 
         </div>
     );

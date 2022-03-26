@@ -1,3 +1,6 @@
+.bar-title{
+    color:rgb(88, 88, 129)
+}
 .sidebar{
     display: grid;
     grid-template-columns: 4fr 1fr;
@@ -6,4 +9,15 @@
 .bar-style{
     background-color: bisque;
     border-radius: 10px;
+    position: sticky;
+    top:0;
+    padding: 30px 20px;
+}
+.choose-btn{
+    background-color: rgb(206, 210, 231);
+    padding:5px 10px;
+    border: 1px solid green;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
